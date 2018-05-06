@@ -44,6 +44,9 @@ public class PhotoFullscreenActivity extends SimpleFragmentActivity {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         int id = item.getItemId();
+
+        // Обработка нажатия стрелки в toolbar'e
+        // т.к. при дефолтном поведении перезагружается первая активность (список фотографий)
         if(id == android.R.id.home) {
             finish();
             return true;
