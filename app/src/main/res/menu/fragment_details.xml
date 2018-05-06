@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/download"
+        android:icon="@drawable/download"
+        android:title="Скачать"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/share"
+        android:icon="@drawable/share"
+        android:title="Поделиться"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/information"
+        android:icon="@drawable/information"
+        android:title="Информация"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/browser"
+        android:icon="@drawable/browser"
+        android:title="Открыть в браузере"
+        app:showAsAction="ifRoom"/>
+</menu>

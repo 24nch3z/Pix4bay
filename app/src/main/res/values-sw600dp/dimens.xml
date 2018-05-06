@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="photoHeight">350dp</dimen>
+    <dimen name="fragmentFiltersFieldsMargin">24dp</dimen>
+    <dimen name="fragmentFiltersWidth">320dp</dimen>
+</resources>
